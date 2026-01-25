@@ -1,15 +1,13 @@
-// --- EXERCÍCIO TS CORRIGIDO ---
-
-// Função de multiplicação com tipagem numérica
+// FUNÇÃO DE MULTIPLICAÇÃO
 function multiplicar(a: number, b: number): number {
     return a * b;
 }
 
-// Função de saudação com tipagem explícita (conforme solicitado)
+// FUNÇÃO DE SAUDAÇÃO (Com tipagem explícita)
 function saudar(nome: string): string {
     return "Olá " + nome;
 }
 
-// Testes de validação
+// Testes para validação
 console.log(multiplicar(5, 10)); 
 console.log(saudar("Claudia")); 
